@@ -1,0 +1,128 @@
+body {
+    font-family: 'Hind Siliguri', sans-serif;
+
+}
+
+.container {
+max-width: 1140px;
+margin: 0 auto ;
+}
+
+.technics_wrapper {
+padding: 22px 0 15px 0;
+display: flex;
+justify-content: space-between;
+}
+
+ .technics_drone {
+  display: flex;
+  align-items: center;
+  width: 555px;
+  background-image: url(./Rectangle\ 94.png);
+  
+}
+.technics_information {
+  width: 277px;
+  padding-left: 35px;
+
+}
+
+
+  .technics_drone-discount h3 {
+  font-family: 'Hind Siliguri';
+  font-style: normal;
+  width: 241px;
+  height: 27px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 27px;
+  text-transform: uppercase;
+  color: #F4F9FC;
+  opacity: 0.6;
+  
+ }
+
+ .technics_drone-info h2{
+font-family: 'Hind Siliguri';
+font-style: normal;
+font-weight: 600;
+font-size: 31px;
+line-height: 40px;
+color: #F4F9FC;
+}
+.technics_drone-display h4 {
+  font-family: 'Hind Siliguri';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 27px;
+  text-transform: uppercase;
+  color: #F4F9FC;
+}
+
+.technics_img1 {
+  margin: 0 auto;
+  padding: 0 25px 0 0;
+}
+
+.technics_img1-drone {
+  transform: rotate(8.01deg)  
+} 
+
+
+
+.technics_camera{
+  width: 555px;
+  height: 296px;
+  display: flex;
+  background-image: url(./Rectangle\ 94.png)
+}
+
+.technics_camera-information{
+  padding-left: 35px;
+  padding-top: 75px;
+  padding-bottom: 74px;
+  align-items: center;
+}
+
+.technics_camera-discount1 h4{
+  font-family: 'Hind Siliguri';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 27px;
+  text-transform: uppercase;
+  color: #F4F9FC;
+  opacity: 0.6;
+}
+
+.technics_camera-info1 h2 {
+font-family: 'Hind Siliguri';
+font-style: normal;
+font-weight: 600;
+font-size: 25px;
+line-height: 40px;
+color: #F4F9FC;
+}
+
+.technics_camera-display1 h4{
+  font-family: 'Hind Siliguri';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 27px;
+text-transform: uppercase;
+color: #F4F9FC;
+}
+
+.technics_img2 {
+  padding-top: 35px;
+  padding-bottom: 52px;
+  padding-right: 25px;
+}
+
+.technics_img2-camera{
+  width: 238px;
+  height: 151px;
+transform: rotate(-5deg);
+}
