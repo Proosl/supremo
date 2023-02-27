@@ -1,4 +1,14 @@
-@import url(./axit.css);
+@import url(./reset.css);
+@import url(./header.css);
+@import url(./banner.css);
+@import url(./social.css);
+@import url(./tabs.css);
+@import url(./about.css);
+@import url(./pricing.css);
+@import url(./review.css);
+@import url(./banner_2.css);
+@import url(./contact.css);
+@import url(./footer.css);
 
 body {
     font-family: 'Raleway', sans-serif;
@@ -78,4 +88,26 @@ button:hover {
 .tooltip:hover:before,
 .tooltip:hover::after {
     opacity: 1;
+}
+
+@media screen and (max-width: 1024px) {
+    .container,
+    .header_container {
+        max-width: 992px;
+    }
+
+    .separator {
+        width: 142px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .container,
+    .header_container {
+        max-width: 288px;
+    }
+
+    .separator {
+        width: 134px;
+    }
 }

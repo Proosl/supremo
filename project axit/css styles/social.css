@@ -1,0 +1,133 @@
+.socials {
+    background: #F8EFEF;
+}
+
+.socials_wrapper {
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.socials_text {
+    margin-right: 30px;
+    max-width: 470px;
+}
+
+.socials_text_title h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    margin-bottom: 18px;
+    padding: 14px 0 14px;
+    color: #333333;
+}
+
+.socials_text_desc h5 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #86878B;
+    margin-bottom: 18px;
+}
+
+.socials_icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 600px;
+    flex-grow: 1;
+}
+
+.socials_icon a img {
+    max-width: 70px;
+    height: auto;
+}
+
+@media screen and (max-width: 1024px) {
+    .socials_text {
+        margin-right: 20px;
+        max-width: 402px;
+    }
+
+    .socials_text_title h4 {
+        font-size: 18px;
+        line-height: 25px;
+        margin-bottom: 13px;
+        padding: 10px 0 10px;
+    }
+    
+    .socials_text_desc h5 {
+        font-size: 14px;
+        line-height: 16px;
+        margin-bottom: 13px;
+    }
+
+    .socials_icon a img {
+        max-width: 64px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .socials_wrapper {
+        flex-wrap: wrap;
+    }
+
+    .socials_text {
+        margin: auto;
+    }
+
+    .socials_text_title {
+        display: flex;
+        justify-content: center;
+    }
+
+    .socials_text_desc {
+        text-align: center;
+    }
+
+    .socials_icons {
+        margin: 0 auto 20px;
+    }
+}
+
+@media  screen and (max-width: 480px) {
+    .socials_icon a img {
+        max-width: 35px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .socials_wrapper {
+        padding: 31px 0 44px;
+    }
+
+    .socials_text {
+        margin-right: 0;
+        max-width: 288px;
+    }
+
+    .socials_text_title h4 {
+        justify-content: center;
+    }
+
+    .socials_text_desc h5 {
+        margin-bottom: 32px;
+        text-align: center;
+    }
+
+    .socials_icon a img {
+        max-width: 26px;
+    }
+
+    .socials_icons {
+        margin: 0 auto;
+    }
+}
